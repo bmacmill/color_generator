@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <div class="container">
+        <main class="main-picker-area">
+            <input id="color-picker" value="#ff0000" class="color-picker" type="color" />
+            <label for="color-select">
+            <select name="colors" id="color-select" class="menu-select">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+              </select>
+            </label>
+    
+            <button id="btn-get-colors">Get color scheme</button>
+        
+        </main>
+    </div>
+
+    <div class="container">
+        <section class="colors-section" id="color-cols">
+           <div> 
+                <div class="color-return r"></div>
+                <div class="hex-color">#F55A5A</div>
+            </div>
+
+           <div> 
+                <div class="color-return bl"></div>
+                <div class="hex-color">#2B283A</div>
+            </div>
+
+            <div> 
+                <div class="color-return y"></div>
+                <div class="hex-color">#FBF3AB</div>
+            </div>
+
+            <div> 
+                <div class="color-return g"></div>
+                <div class="hex-color">#AAD1B6</div>
+            </div>
+
+            <div> 
+                <div class="color-return p"></div>
+                <div class="hex-color">#A626D3</div>
+            </div>
+        
+        </section>
+
+    </div>
+
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
